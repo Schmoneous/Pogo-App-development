@@ -17,12 +17,14 @@ class PeripheralManager:NSObject, CBPeripheralDelegate {
         super.init()
     }
     
+    //Looks at all the services within the ESP32
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices error:  Error?) {
         for service in peripheral.services ?? []{
-            peripheral.discoverCharacteristics(nil, for: service)
+            peripheral.discoverCharacteristics(nil, for: service)//provides all the characteristics with in that service
         }
     }
     
+    //Looks at all the characteristics with in that services
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: (any Error)?) {
         for characteristic in service.characteristics ?? []{
             BluetoothService.shared.MovementCharacteristic = characteristic
