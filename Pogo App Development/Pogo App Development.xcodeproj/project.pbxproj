@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA1DE8A2C6925D500A28784 /* Pogo_App_DevelopmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DE892C6925D500A28784 /* Pogo_App_DevelopmentApp.swift */; };
+		2AA1DE8C2C6925D500A28784 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DE8B2C6925D500A28784 /* ContentView.swift */; };
+		2AA1DE8E2C6925D600A28784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA1DE8D2C6925D600A28784 /* Assets.xcassets */; };
+		2AA1DE912C6925D600A28784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA1DE902C6925D600A28784 /* Preview Assets.xcassets */; };
+		2AA1DE982C6B08F500A28784 /* BluetoothService .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DE972C6B08F500A28784 /* BluetoothService .swift */; };
+		2AA1DE9D2C6B129800A28784 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DE9C2C6B129800A28784 /* Homepage.swift */; };
+		2AA1DEA12C6B16A500A28784 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEA02C6B16A500A28784 /* CustomTabView.swift */; };
+		2AA1DEA32C6B16E400A28784 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEA22C6B16E400A28784 /* ColorExtension.swift */; };
+		2AA1DEA72C6B175800A28784 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA1DEA42C6B175800A28784 /* Poppins-Black.ttf */; };
+		2AA1DEA82C6B175800A28784 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AA1DEA52C6B175800A28784 /* Poppins-Bold.ttf */; };
+		2AA1DEAA2C6B1F2000A28784 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEA92C6B1F2000A28784 /* PeripheralManager.swift */; };
+		2AA1DEAC2C6BF12C00A28784 /* Play Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEAB2C6BF12C00A28784 /* Play Screen.swift */; };
+		2AA1DEAE2C6BF14800A28784 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEAD2C6BF14800A28784 /* Functions.swift */; };
+		2AA1DEB02C6BF15900A28784 /* Manual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEAF2C6BF15900A28784 /* Manual.swift */; };
+		2AA1DEB22C6BF1EA00A28784 /* Profile Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEB12C6BF1EA00A28784 /* Profile Screen.swift */; };
+		2AB7CF9A2C7F861400525F8F /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB7CF992C7F861400525F8F /* SwiftUIJoystick */; };
+		2AB7CF9C2C7F899800525F8F /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7CF9B2C7F899800525F8F /* Joystick.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AA1DE862C6925D500A28784 /* Pogo App Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pogo App Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA1DE892C6925D500A28784 /* Pogo_App_DevelopmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pogo_App_DevelopmentApp.swift; sourceTree = "<group>"; };
+		2AA1DE8B2C6925D500A28784 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AA1DE8D2C6925D600A28784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AA1DE902C6925D600A28784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AA1DE972C6B08F500A28784 /* BluetoothService .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothService .swift"; sourceTree = "<group>"; };
+		2AA1DE9C2C6B129800A28784 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		2AA1DEA02C6B16A500A28784 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		2AA1DEA22C6B16E400A28784 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2AA1DEA42C6B175800A28784 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		2AA1DEA52C6B175800A28784 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		2AA1DEA92C6B1F2000A28784 /* PeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
+		2AA1DEAB2C6BF12C00A28784 /* Play Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Play Screen.swift"; sourceTree = "<group>"; };
+		2AA1DEAD2C6BF14800A28784 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		2AA1DEAF2C6BF15900A28784 /* Manual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manual.swift; sourceTree = "<group>"; };
+		2AA1DEB12C6BF1EA00A28784 /* Profile Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Screen.swift"; sourceTree = "<group>"; };
+		2AB7CF9B2C7F899800525F8F /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AA1DE832C6925D500A28784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB7CF9A2C7F861400525F8F /* SwiftUIJoystick in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA1DE7D2C6925D500A28784 = {
+			isa = PBXGroup;
+			children = (
+				2AB7CF9B2C7F899800525F8F /* Joystick.swift */,
+				2AA1DEA92C6B1F2000A28784 /* PeripheralManager.swift */,
+				2AA1DEA22C6B16E400A28784 /* ColorExtension.swift */,
+				2AA1DEA02C6B16A500A28784 /* CustomTabView.swift */,
+				2AA1DE972C6B08F500A28784 /* BluetoothService .swift */,
+				2AA1DEA62C6B175800A28784 /* fonts */,
+				2AA1DE882C6925D500A28784 /* Pogo App Development */,
+				2AA1DE872C6925D500A28784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AA1DE872C6925D500A28784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DE862C6925D500A28784 /* Pogo App Development.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AA1DE882C6925D500A28784 /* Pogo App Development */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DE892C6925D500A28784 /* Pogo_App_DevelopmentApp.swift */,
+				2AA1DE8B2C6925D500A28784 /* ContentView.swift */,
+				2AA1DE9B2C6B125E00A28784 /* Views */,
+				2AA1DE8D2C6925D600A28784 /* Assets.xcassets */,
+				2AA1DE8F2C6925D600A28784 /* Preview Content */,
+			);
+			path = "Pogo App Development";
+			sourceTree = "<group>";
+		};
+		2AA1DE8F2C6925D600A28784 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DE902C6925D600A28784 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA1DE9B2C6B125E00A28784 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DEAF2C6BF15900A28784 /* Manual.swift */,
+				2AA1DE9C2C6B129800A28784 /* Homepage.swift */,
+				2AA1DEAB2C6BF12C00A28784 /* Play Screen.swift */,
+				2AA1DEAD2C6BF14800A28784 /* Functions.swift */,
+				2AA1DEB12C6BF1EA00A28784 /* Profile Screen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AA1DEA62C6B175800A28784 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DEA42C6B175800A28784 /* Poppins-Black.ttf */,
+				2AA1DEA52C6B175800A28784 /* Poppins-Bold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AA1DE852C6925D500A28784 /* Pogo App Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA1DE942C6925D600A28784 /* Build configuration list for PBXNativeTarget "Pogo App Development" */;
+			buildPhases = (
+				2AA1DE822C6925D500A28784 /* Sources */,
+				2AA1DE832C6925D500A28784 /* Frameworks */,
+				2AA1DE842C6925D500A28784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pogo App Development";
+			packageProductDependencies = (
+				2AB7CF992C7F861400525F8F /* SwiftUIJoystick */,
+			);
+			productName = "Pogo App Development";
+			productReference = 2AA1DE862C6925D500A28784 /* Pogo App Development.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AA1DE7E2C6925D500A28784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2AA1DE852C6925D500A28784 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2AA1DE812C6925D500A28784 /* Build configuration list for PBXProject "Pogo App Development" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AA1DE7D2C6925D500A28784;
+			packageReferences = (
+				2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+			);
+			productRefGroup = 2AA1DE872C6925D500A28784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AA1DE852C6925D500A28784 /* Pogo App Development */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AA1DE842C6925D500A28784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA1DEA72C6B175800A28784 /* Poppins-Black.ttf in Resources */,
+				2AA1DE912C6925D600A28784 /* Preview Assets.xcassets in Resources */,
+				2AA1DE8E2C6925D600A28784 /* Assets.xcassets in Resources */,
+				2AA1DEA82C6B175800A28784 /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA1DE822C6925D500A28784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA1DE8C2C6925D500A28784 /* ContentView.swift in Sources */,
+				2AA1DEB02C6BF15900A28784 /* Manual.swift in Sources */,
+				2AA1DE982C6B08F500A28784 /* BluetoothService .swift in Sources */,
+				2AA1DEAE2C6BF14800A28784 /* Functions.swift in Sources */,
+				2AA1DEAC2C6BF12C00A28784 /* Play Screen.swift in Sources */,
+				2AA1DEA12C6B16A500A28784 /* CustomTabView.swift in Sources */,
+				2AA1DEA32C6B16E400A28784 /* ColorExtension.swift in Sources */,
+				2AA1DE8A2C6925D500A28784 /* Pogo_App_DevelopmentApp.swift in Sources */,
+				2AA1DEAA2C6B1F2000A28784 /* PeripheralManager.swift in Sources */,
+				2AB7CF9C2C7F899800525F8F /* Joystick.swift in Sources */,
+				2AA1DE9D2C6B129800A28784 /* Homepage.swift in Sources */,
+				2AA1DEB22C6BF1EA00A28784 /* Profile Screen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AA1DE922C6925D600A28784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AA1DE932C6925D600A28784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AA1DE952C6925D600A28784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pogo App Development/Preview Content\"";
+				DEVELOPMENT_TEAM = DPGRPJ69WQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allows us to Scan for esp32";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResearchGroup.Pogo-App-Development";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AA1DE962C6925D600A28784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pogo App Development/Preview Content\"";
+				DEVELOPMENT_TEAM = DPGRPJ69WQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allows us to Scan for esp32";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResearchGroup.Pogo-App-Development";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AA1DE812C6925D500A28784 /* Build configuration list for PBXProject "Pogo App Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA1DE922C6925D600A28784 /* Debug */,
+				2AA1DE932C6925D600A28784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA1DE942C6925D600A28784 /* Build configuration list for PBXNativeTarget "Pogo App Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AA1DE952C6925D600A28784 /* Debug */,
+				2AA1DE962C6925D600A28784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AB7CF992C7F861400525F8F /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2AA1DE7E2C6925D500A28784 /* Project object */;
+}
