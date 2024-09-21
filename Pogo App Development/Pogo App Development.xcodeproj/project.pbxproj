@@ -22,6 +22,8 @@
 		2AA1DEAE2C6BF14800A28784 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEAD2C6BF14800A28784 /* Functions.swift */; };
 		2AA1DEB02C6BF15900A28784 /* Manual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEAF2C6BF15900A28784 /* Manual.swift */; };
 		2AA1DEB22C6BF1EA00A28784 /* Profile Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1DEB12C6BF1EA00A28784 /* Profile Screen.swift */; };
+		2AB7CF9A2C7F861400525F8F /* SwiftUIJoystick in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB7CF992C7F861400525F8F /* SwiftUIJoystick */; };
+		2AB7CF9C2C7F899800525F8F /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7CF9B2C7F899800525F8F /* Joystick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,7 @@
 		2AA1DEAD2C6BF14800A28784 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		2AA1DEAF2C6BF15900A28784 /* Manual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manual.swift; sourceTree = "<group>"; };
 		2AA1DEB12C6BF1EA00A28784 /* Profile Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Screen.swift"; sourceTree = "<group>"; };
+		2AB7CF9B2C7F899800525F8F /* Joystick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joystick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB7CF9A2C7F861400525F8F /* SwiftUIJoystick in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +61,7 @@
 		2AA1DE7D2C6925D500A28784 = {
 			isa = PBXGroup;
 			children = (
+				2AB7CF9B2C7F899800525F8F /* Joystick.swift */,
 				2AA1DEA92C6B1F2000A28784 /* PeripheralManager.swift */,
 				2AA1DEA22C6B16E400A28784 /* ColorExtension.swift */,
 				2AA1DEA02C6B16A500A28784 /* CustomTabView.swift */,
@@ -132,6 +137,9 @@
 			dependencies = (
 			);
 			name = "Pogo App Development";
+			packageProductDependencies = (
+				2AB7CF992C7F861400525F8F /* SwiftUIJoystick */,
+			);
 			productName = "Pogo App Development";
 			productReference = 2AA1DE862C6925D500A28784 /* Pogo App Development.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +168,9 @@
 				Base,
 			);
 			mainGroup = 2AA1DE7D2C6925D500A28784;
+			packageReferences = (
+				2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */,
+			);
 			productRefGroup = 2AA1DE872C6925D500A28784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -197,6 +208,7 @@
 				2AA1DEA32C6B16E400A28784 /* ColorExtension.swift in Sources */,
 				2AA1DE8A2C6925D500A28784 /* Pogo_App_DevelopmentApp.swift in Sources */,
 				2AA1DEAA2C6B1F2000A28784 /* PeripheralManager.swift in Sources */,
+				2AB7CF9C2C7F899800525F8F /* Joystick.swift in Sources */,
 				2AA1DE9D2C6B129800A28784 /* Homepage.swift in Sources */,
 				2AA1DEB22C6BF1EA00A28784 /* Profile Screen.swift in Sources */,
 			);
@@ -406,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michael94ellis/SwiftUIJoystick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AB7CF992C7F861400525F8F /* SwiftUIJoystick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AB7CF982C7F861400525F8F /* XCRemoteSwiftPackageReference "SwiftUIJoystick" */;
+			productName = SwiftUIJoystick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AA1DE7E2C6925D500A28784 /* Project object */;
 }
